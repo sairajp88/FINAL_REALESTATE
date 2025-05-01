@@ -1,6 +1,96 @@
-# Real Estate Project On MERN-STACK Technology !💻 
+# Final Real Estate Project
 
-🚀 Building a Real Estate website using the MERN stack involves creating a full-stack application with MongoDB, Express.js, React.js, and Node.js. Here's a breakdown of the key features you can implement: 
+This is a full-stack real estate application built with React (frontend) and Node.js (backend). It allows users to browse, search, and manage real estate listings.
+
+## Features
+- User authentication (Google OAuth and JWT)
+- Create, update, and delete property listings
+- Search and filter properties
+- Responsive and visually appealing UI
+
+---
+
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+- Node.js installed on your machine
+- MongoDB connection string
+- Firebase project for Google OAuth
+
+---
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sairajp88/FINAL_REALESTATE.git
+cd FINAL_REALESTATE
+```
+
+---
+
+### 2. Set Up Environment Variables
+#### Backend:
+Create a `.env` file in the root directory and add the following:
+```properties
+MONGO=<your_mongodb_connection_string>
+JWT_SECRET=<your_jwt_secret>
+PORT=3000
+```
+
+#### Frontend:
+Create a `.env` file in the `client` directory and add:
+```properties
+VITE_FIREBASE_API_KEY=<your_firebase_api_key>
+```
+
+---
+
+### 3. Install Dependencies
+#### Backend:
+```bash
+npm install
+```
+
+#### Frontend:
+```bash
+cd client
+npm install
+```
+
+---
+
+### 4. Run the Development Servers
+#### Backend:
+```bash
+npm run dev
+```
+
+#### Frontend:
+```bash
+cd client
+npm run dev
+```
+
+---
+
+### 5. Access the Application
+- Frontend: `http://localhost:5173`
+- Backend: `http://localhost:3000`
+
+---
+
+### 6. Build for Production (Optional)
+To build the frontend for production:
+```bash
+npm run build --prefix client
+```
+
+---
+
+## Deployment
+To deploy the project, ensure the environment variables are properly configured on your hosting platform (e.g., Vercel, Netlify, or Heroku).
+Building a Real Estate website using the MERN stack involves creating a full-stack application with MongoDB, Express.js, React.js, and Node.js. Here's a breakdown of the key features you can implement: 
 
 ### User Authentication: 
 
