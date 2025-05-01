@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f9fafb; /* Light background */
+  font-family: 'Inter', sans-serif; /* Modern font */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1f2937; /* Darker text for headings */
+}
+
+p {
+  color: #4b5563; /* Subtle text color */
+}
+
+button {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
