@@ -1,8 +1,27 @@
-# React + Vite
+# Final Real Estate Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack real estate application built with React (frontend) and Node.js (backend). It allows users to browse, search, and manage real estate listings.
 
-Currently, two official plugins are available:
+## Features
+- User authentication (Google OAuth and JWT)
+- Create, update, and delete property listings
+- Search and filter properties
+- Responsive and visually appealing UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Getting Started
+
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+- Node.js installed on your machine
+- MongoDB connection string
+- Firebase project for Google OAuth
+
+---
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sairajp88/FINAL_REALESTATE.git
+cd FINAL_REALESTATE
